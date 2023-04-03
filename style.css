@@ -1,0 +1,66 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .right {
+      position: absolute;
+      top: 1;
+      right: 0;
+    }
+
+    body {
+      font-family: cursive;
+      background-image: url('https://cdn.discordapp.com/attachments/814062428743925770/1092417098669637632/GAD_COVER_PHOTO.png');
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      background: rgb(99, 0, 86);
+      background: linear-gradient(90deg, rgba(99, 0, 86, 1) 0%, rgba(121, 9, 113, 1) 9%, rgba(255, 0, 146, 1) 100%);
+      color: #fff;
+    }
+
+    .nav-links a {
+      color: #fff;
+    }
+
+    .logo {
+      font-size: 32px;
+    }
+
+    .menu {
+      display: flex;
+      gap: 1em;
+      font-size: 18px;
+    }
+
+    .missiontext {
+      font-size: 20px;
+      max-width: 300px;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    .mission {
+      margin-left: 20px;
+    }
+
+    .center {
+      align-items: center;
+      text-align: center;
+    }
