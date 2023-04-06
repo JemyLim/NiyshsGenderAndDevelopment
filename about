@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NIYSHS GAD Club About</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .right {
+      position: absolute;
+      top: 1;
+      right: 0;
+    }
+
+    body {
+      font-family: cursive;
+      background-image: url('https://cdn.discordapp.com/attachments/814062428743925770/1092417098669637632/GAD_COVER_PHOTO.png');
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      background: rgb(99, 0, 86);
+      background: linear-gradient(90deg, rgba(99, 0, 86, 1) 0%, rgba(121, 9, 113, 1) 9%, rgba(255, 0, 146, 1) 100%);
+      color: #fff;
+    }
+
+    .nav-links a {
+      color: #fff;
+    }
+
+    .logo {
+      font-size: 32px;
+    }
+
+    .menu {
+      display: flex;
+      gap: 1em;
+      font-size: 18px;
+    }
+
+    .missiontext {
+      font-size: 20px;
+      max-width: 300px;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    .mission {
+      margin-left: 20px;
+    }
+
+    .center {
+      align-items: center;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <nav class="navbar">
+      <div class="logo" onclick="location.href='https://web.facebook.com/profile.php?id=100091290317915';" style="cursor: pointer;">GAD</div>
+      <ul class="nav-links">
+        <div class="menu">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/">Events</a>
+          </li>
+          <li>
+            <a href="/">Contacts</a>
+          </li>
+        </div>
+      </ul>
+    </nav>
+    <nav>
+      <img src="https://cdn.discordapp.com/attachments/814062428743925770/1092419495391395934/G.A.D_Logo.png" width="200" height="auto">
+      <img class="right" src="https://cdn.discordapp.com/attachments/814062428743925770/1092502451829084332/NIYSHS_LOGO.png" width="200" height="auto">
+    </nav>
+    <div class="center">
+      <h style="font-size:40px">Nemesio I. Yabut Senior High School</h>
+      <h1 style="font-size:500%;">Gender And Development Club</h1>
+      <br>
+      <div>
+          <p style="font-size:160%;">Mission :
+To equip the youth with
+gender sensitive manner and 
+develop a healthy and respectful nature to the community.</p>
+<br>
+<p style="font-size:160%;">Vision :
+NIYSHS to be filled with gender equality, anti - discrimination and be an inclusive school that everyone has and have the right to express themselves.</p>
+      </div>
+    </div>
+  </body>
+</html>
