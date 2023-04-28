@@ -64,3 +64,16 @@
       align-items: center;
       text-align: center;
     }
+
+    .preview {
+      font-size: 50px;
+      padding-top: 200px;
+      padding-left: 20px;
+    }
+
+    .previewimages {
+      align-items: center;
+      text-align: center;
+      border: 10px solid #FFC0CB;
+      max-width: 90%;
+    }
