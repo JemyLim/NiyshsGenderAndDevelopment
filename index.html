@@ -1,37 +1,79 @@
-<!DOCTYPE html>
-<html lang="en">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NIYSHS GAD Club About</title>
-  <link rel="stylesheet" href="styles.css">
-  <body>
-    <nav class="navbar">
-      <div class="logo" onclick="location.href='https://web.facebook.com/profile.php?id=100091290317915';" style="cursor: pointer;">GAD</div>
-      <ul class="nav-links">
-        <div class="menu">
-          <li>
-            <a href="about.html">About</a>
-          </li>
-          <li>
-            <a href="/">Events</a>
-          </li>
-          <li>
-            <a href="/">Contacts</a>
-          </li>
-        </div>
-      </ul>
-    </nav>
-    <nav>
-      <img src="https://cdn.discordapp.com/attachments/814062428743925770/1092419495391395934/G.A.D_Logo.png" width="200" height="auto">
-      <img class="right" src="https://cdn.discordapp.com/attachments/814062428743925770/1092502451829084332/NIYSHS_LOGO.png" width="200" height="auto">
-    </nav>
-    <div class="center">
-      <h style="font-size:40px">Nemesio I. Yabut Senior High School</h>
-      <h1 style="font-size:500%;">Gender And Development</h1>
-    </div>
-    <div>
-      <p class="preview">Preview</p>
-      <p style="font-size: 30px; padding-top: 20px; padding-bottom: 20px; padding-left: 20px;">03/31/23</p>
-      <img class="previewimages" src="https://scontent.fmnl33-2.fna.fbcdn.net/v/t39.30808-6/342464863_725890225686670_7315835875892160026_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeF5pnbA944pGQLX98zKqvGM4Dup5Y_0IabgO6nlj_QhpnrkF-KtBBEksgVeMDePuXI8hCO7t464wSS0bdHYUwkU&_nc_ohc=FN8OeUfQPR8AX_hKGDg&_nc_ht=scontent.fmnl33-2.fna&oh=00_AfBmPPYdtVDhaz9fzS_qai9p0LmOuV6ol-OeOEpbRU6crw&oe=645042A4">
-    </div>
-  </body>
-</html>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .right {
+      position: absolute;
+      top: 1;
+      right: 0;
+    }
+
+    body {
+      font-family: cursive;
+      background-image: url('https://cdn.discordapp.com/attachments/814062428743925770/1092417098669637632/GAD_COVER_PHOTO.png');
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      background: rgb(99, 0, 86);
+      background: linear-gradient(90deg, rgba(99, 0, 86, 1) 0%, rgba(121, 9, 113, 1) 9%, rgba(255, 0, 146, 1) 100%);
+      color: #fff;
+    }
+
+    .nav-links a {
+      color: #fff;
+    }
+
+    .logo {
+      font-size: 32px;
+    }
+
+    .menu {
+      display: flex;
+      gap: 1em;
+      font-size: 18px;
+    }
+
+    .missiontext {
+      font-size: 20px;
+      max-width: 300px;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    .mission {
+      margin-left: 20px;
+    }
+
+    .center {
+      align-items: center;
+      text-align: center;
+    }
+
+    .preview {
+      font-size: 50px;
+      padding-top: 200px;
+      padding-left: 20px;
+    }
+
+    .previewimages {
+      align-items: center;
+      text-align: center;
+      border: 10px solid #FFC0CB;
+      max-width: 90%;
+    }
