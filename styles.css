@@ -75,5 +75,8 @@
       align-items: center;
       text-align: center;
       border: 10px solid #FFC0CB;
-      max-width: 120%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
     }
