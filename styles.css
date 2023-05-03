@@ -80,3 +80,10 @@
       margin-right: auto;
       width: 50%;
     }
+
+    .test{
+        padding-right:450px;
+    }
+    .test2 {
+        padding-left:450px;
+    }
